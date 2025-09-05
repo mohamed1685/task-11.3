@@ -30,15 +30,15 @@ Polygonal approximation (cv2.approxPolyDP) is applied to contours to reduce them
 
 Decision rules:
 
-3 vertices → triangle
+-3 vertices → triangle
 
-4 vertices → square or rectangle (aspect ratio check)
+-4 vertices → square or rectangle (aspect ratio check)
 
->4 vertices → check circularity to classify as circle
+-check circularity to classify as circle
 
 Color is determined by the mask from which the contour was extracted.
 
-Multiple HSV ranges were defined for each target color (e.g., red requires two ranges due to hue wrapping).
+Multiple HSV ranges were defined for each target color ( red requires two ranges due to hue wrapping).
 
 
 
